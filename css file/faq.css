@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+p{
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;  
+}
+
+.cen{
+text-align: center;
+}
+
+.font-family{
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+.header{
+    background-color:red;
+    height: 15%;
+
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color:white;
+    height: 10%;
+}
+
+.title-section{
+    display: flex;
+    height: 200px;
+    /* background-color: yellow; */
+    background-image: linear-gradient(to right bottom, #0FB9E9,#2C5C6C
+    );
+}
+
+.content{
+    align-items: center;
+    text-align: center;
+
+    margin: auto;
+    /* padding-top: 10px;
+    padding-bottom:10px ; */
+}
+
+.faq-section{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    max-width:700px;
+    padding: 10px;
+
+}
+
+.faq-item{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.forms{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box{
+    text-align: left;
+    width: 100%;
+    height: 53px;
+    color: aliceblue;
+}
+input{
+    width: 100%;
+    height: 30px; 
+     border: 1px solid #D9D9D9;
+}
+
+textarea{
+    border: 1px solid #D9D9D9;
+}
+
+.form-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    height: 45px;
+    background-color: #358BC0;
+    color: #ffffff;
+}
+
+details{
+    list-style: none;
+}
+
+
+summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+details[open] > summary{
+font-weight: bold;
+margin-bottom: 0;
+
+}
